@@ -16,9 +16,10 @@ const toggleNavbar=()=>{
 
   return (
     <div className="navbar"> 
+    <img src={Logo} ></img>
 
     <div className="leftSide" id={ openLinks ? "open" : "close"}></div>
-        <img src={Logo} ></img>
+        {/* <img src={Logo} ></img> */}
         <div className="hiddenLinks">
             <Link to="/">Home</Link>
             <Link to="/menu">Menu</Link>
